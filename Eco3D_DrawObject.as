@@ -56,8 +56,6 @@ package
 				}
 				viewport.transformVectors(vectors, tVectors);
 				viewport.ecoVector(position, screenVector);
-				//getPosition(screenVector, true, true);
-				//viewport.ecoVector(screenVector, screenVector);
 			} else {
 				if (transformation) {
 					(m = transformation.clone()).prepend(this);
@@ -68,9 +66,6 @@ package
 					screenVector = transformVector(position);
 				}
 			}
-			//if (screenVector.z 
-			//screenVector.z -= viewport.nearPlane;
-			//trace(screenVector);
 		}
 		
 		public function draw(renderTarget:Object) : void {
