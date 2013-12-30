@@ -53,18 +53,9 @@ package
 				if (origin.y + size.y	> deltas[3]) deltas[3] = origin.y + size.y;
 				if (origin.z				< deltas[4]) deltas[4] = origin.z;
 				if (origin.z + size.z	> deltas[5]) deltas[5] = origin.z + size.z;
-				
-				//if (eco.origin.x					< deltas[0]) deltas[0] = eco.origin.x;
-				//if (eco.origin.x + eco.size.x	> deltas[1]) deltas[1] = eco.origin.x + eco.size.x;
-				//if (eco.origin.y					< deltas[2]) deltas[2] = eco.origin.y;
-				//if (eco.origin.y + eco.size.y	> deltas[3]) deltas[3] = eco.origin.y + eco.size.y;
-				//if (eco.origin.z					< deltas[4]) deltas[4] = eco.origin.z;
-				//if (eco.origin.z + eco.size.z	> deltas[5]) deltas[5] = eco.origin.z + eco.size.z;
 			}
 			origin = new Vector3D(-deltas[0], -deltas[2], -deltas[4]);
 			size	 = new Vector3D(deltas[1] - deltas[0], deltas[3] - deltas[2], deltas[5] - deltas[4]);
-			//trace(origin);
-			//trace(size);
 		}
 		
 		public function indexDraws() : void {
