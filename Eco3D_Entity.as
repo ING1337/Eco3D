@@ -36,9 +36,6 @@ package
 				target.y = y;
 				target.z = z;
 			}
-			//target.x = x - (observeOrigin ? (global ? origin.x * rawData[0]  : origin.x) : 0);
-			//target.y = y - (observeOrigin ? (global ? origin.y * rawData[5]  : origin.y) : 0);
-			//target.z = z - (observeOrigin ? (global ? origin.z * rawData[10] : origin.z) : 0);
 		}
 		
 		public function getSize(target:Vector3D, global:Boolean = true) : void {
@@ -51,20 +48,6 @@ package
 				target.y = size.y;
 				target.z = size.z;
 			}
-			//target.x = (global ? size.x * rawData[0]  : size.x);
-			//target.y = (global ? size.y * rawData[5]  : size.y);
-			//target.z = (global ? size.z * rawData[10] : size.z);
 		}
-		
-		
-		//public function getOrigin(target:Vector3D, global:Boolean = true) : void {
-			//target.x = (global ? origin.x * rawData[0]  : origin.x);
-			//target.y = (global ? origin.y * rawData[5]  : origin.y);
-			//target.z = (global ? origin.z * rawData[10] : origin.z);
-		//}
-		
-		//public function get width()  : Number { return size.x * rawData[0]; }
-		//public function get height() : Number { return size.y * rawData[5]; }
-		//public function get depth()  : Number { return size.z * rawData[10]; }
 	}
 }
