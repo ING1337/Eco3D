@@ -3,7 +3,6 @@ package
 	import flash.geom.Matrix;
 	import flash.geom.Matrix3D;
 	import flash.geom.Vector3D;
-	//import flash.geom.Point;
 	
 	public class Eco3D_ViewPort extends Eco3D
 	{
