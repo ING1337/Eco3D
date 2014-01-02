@@ -3,12 +3,12 @@ package
 	public class Eco3D_Utils
 	{
 		
-		public static const MOVE:String		= "move";
-		public static const LINE:String		= "line";
-		public static const CURVE:String		= "curve";
-		public static const PEN:String		= "pen";
-		public static const FILL:String		= "fill";
-		public static const ENDFILL:String	= "endfill";
+		public static const MOVE:String    = "move";
+		public static const LINE:String    = "line";
+		public static const CURVE:String   = "curve";
+		public static const PEN:String     = "pen";
+		public static const FILL:String    = "fill";
+		public static const ENDFILL:String = "endfill";
 		
 		public static function mapGraphicsArray(type:String, data:String) : Array {
 			var a:Array = data.split(",");
